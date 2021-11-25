@@ -43,6 +43,6 @@ if (isset($_SESSION["user_email"])) {
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-     <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(216247)</script> 
+    <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(216247)</script> 
 </body>
 </html>
