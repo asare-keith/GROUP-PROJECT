@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4, 9, 30,0.7))
+}
+.display-4.fw-bold.lh-1.mb-3 {
+    color: white;
+}
