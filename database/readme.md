@@ -1,1 +1,1 @@
-The sql for our database
+This is our database created using MySQL
