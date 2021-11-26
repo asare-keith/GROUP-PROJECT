@@ -58,7 +58,7 @@ if (mysqli_num_rows($res) > 0) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit</title>
+    <title>Edit - Todo List</title>
     <?php getHead(); ?>
 </head>
 <body class="bg-light">
@@ -114,7 +114,7 @@ if (mysqli_num_rows($res) > 0) {
                         <form action="" method="POST">
                             <div class="mb-3">
                                 <label for="title" class="form-label">Title</label>
-                                <input type="text" class="form-control" id="title" name="title" placeholder="e.g. Create a PHP program" value="<?php echo $todoData['title']; ?>" required>
+                                <input type="text" class="form-control" id="title" name="title" placeholder="e.g. Submit Web Tech assignment" value="<?php echo $todoData['title']; ?>" required>
                             </div>
                             <div class="mb-3">
                                 <label for="desc" class="form-label">Description</label>
